@@ -1,0 +1,1 @@
+python %PYSSRSTAT_HOME%\statgetlongest.py %1 %2

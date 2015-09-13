@@ -1,0 +1,1 @@
+python %PYSSRSTAT_HOME%\statistics_misa.py %1 %2 %3
