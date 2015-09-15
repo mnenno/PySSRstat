@@ -4,9 +4,9 @@
 containing data form the MISA statistic file and
 - relative abundance
 - relative density
-- number of perfect, imperfect and compound SSRs
 - longest motifs by repeat length
 - total abundance of repeat types in absolute numbers and percentage
+- number of perfect, imperfect and compound SSRs (experimental)
 
 Usage:
 statistics_misa.py <MISA-statstic-file> <MISA-file> [-rpc|--repeatclassses]
@@ -71,6 +71,12 @@ def main(statisticsfile, misafile, repeatclasses):
     is_results = False
     is_repeat_types = False
     is_in_repeat_types = False
+
+    # Init monos
+    longest_motifs["A"] = 0
+    longest_motifs["T"] = 0
+    longest_motifs["C"] = 0
+    longest_motifs["G"] = 0
 
     # take start time to calc duration later
     start_time = time.time()
