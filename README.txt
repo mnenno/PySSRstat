@@ -70,7 +70,7 @@ getsequences.py       Extract the previously filtered accessions from database
                       Input:
                         - filtered-repeats-sequence-list.txt
                         - db file with original sequences in FASTA format
-                        - optional parameter -b in order to check for border
+                        [-b nnn] (optional)
                     
                       Output:
                         - getsequences-info.txt
