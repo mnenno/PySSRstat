@@ -53,7 +53,8 @@ Set 2) Filter MISA-file by repeat length and border for primer selection
 
 Program               Description
 -------------------------------------------------------------------------------
-filterrepeatsmisa.py  Filter the MISA file by minimum and maximum repeat length
+filterrepeatsmisa.py  Filter the MISA file by minimum and maximum repeat 
+                      length
 
                       Input:
                         - MISA-file
@@ -81,7 +82,8 @@ getsequences.py       Extract the previously filtered accessions from database
 
 3) Others
 =========
-imperfect.py          Statistics about imperfect repeats in MISA-file (experimental)
+imperfect.py          Statistics about imperfect repeats in MISA-file 
+                      (experimental)
 
                       Input:
                         - MISA-file
@@ -89,14 +91,15 @@ imperfect.py          Statistics about imperfect repeats in MISA-file (experimen
                       Output:
                       - imperfect.txt
 
-form_border.py        Format the file border.txt with spaces or tabs
+format_border.py      Format the file border.txt with spaces or tabs
 
                       Input:
                       - border file (output of getsequences.py)
                       - 'tab' or 'space' as column delimiter
 
                       OPTIONAL PARAMTER
-                      -idt or --idtrunc to truncat id at the first underscore character
+                      -idt or --idtrunc to truncat id at the first underscore
+                       character
 
                       Ouput:
                       - border-space.txt (if space delimited)
@@ -116,7 +119,7 @@ a) Repeat analysis, distribution, longest:
                               MISA-file
                                   |
                                   |
-                          [statgetlongest.py]  ->  longest-sequences-list.txt
+                          [statgetlongest.py]  -> longest-sequences-list.txt
 
 
 
@@ -138,8 +141,8 @@ b) For Primer selection:
                                                   border.txt
 
 
-Note: The file index.txt is for internal use and helps to speed up the extraction of
-      accessions for the sequence db file
+Note: The file index.txt is for internal use and helps to speed up the 
+      extraction of accessions for the sequence db file
 
 
 References
