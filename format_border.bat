@@ -1,1 +1,1 @@
-python %PYSSRSTAT_HOME%\format_border.py %1 %2 %3
+python %~dp0format_border.py %1 %2 %3

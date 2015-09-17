@@ -1,1 +1,1 @@
-python %PYSSRSTAT_HOME%\statgetlongest.py %1 %2
+python %~dp0statgetlongest.py %1 %2

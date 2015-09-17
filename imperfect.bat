@@ -1,1 +1,1 @@
-python %PYSSRSTAT_HOME%\imperfect.py %1
+python %~dp0imperfect.py %1
