@@ -1,0 +1,8 @@
+Program: getsequences.py 1.0
+Date: 2015-09-18 00:31 , duration: 0.00 sec
+Repeats file: filtered-repeats-sequence-list.txt
+Db file: sequences.fasta
+2 repeats with border (200 bp)
+================================================================================
+Seq_p6_ACCATC5	1	p6	(ACCATC)5	30	211	240
+Seq_p4_ACTC8	1	p4	(ACTC)8	32	211	242

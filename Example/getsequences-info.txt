@@ -1,0 +1,9 @@
+Program: getsequences.py
+Date: 2015-09-18 00:31, duration: 0.00 sec
+Input, list of sequences and repeats from: filtered-repeats-sequence-list.txt
+Input, db file with sequences FASTA: sequences.fasta
+Num lines of sequence in db file: 42
+Mandatory border of bp: 200
+Found 2 repeats
+Output, accessions with border in FASTA format: repeats-sequences-border.fas
+Output, list of accessions with border: border.txt

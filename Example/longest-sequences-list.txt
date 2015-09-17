@@ -1,0 +1,29 @@
+Program: statgetlongest.py 1.0
+Date: 2015-09-18 00:31 Execution time: 0.00 sec
+Input file of repeat analysis: repeats_analysis.txt
+Input file of sequences: sequences.fasta.misa
+Output: longest-sequences-list.txt
+==================================================
+----- Mono
+(A)16 16: Seq_p1_A16
+(T)11 11: Seq_p1_T11
+(C)11 11: Seq_p1_C11
+(G)11 11: Seq_p1_G11
+----- Di
+(CG)8 16: Seq_p2_CG14
+----- Tri
+(AGC)7 21: Seq_p3_AGC6
+----- Tetra
+(ACTC)8 32: Seq_p4_ACTC8
+----- Penta
+(AACAC)5 25: Seq_p5_AACAC5
+----- Hexa
+(ACCATC)5 30: Seq_p6_ACCATC5
+----- Septa
+(AATATAT)3 21: Seq_p7_AATATAT3
+----- Octa
+(AATCAATT)2 16: Seq_p8_AATCAATT2
+----- Nona
+(AAAAGTTAT)2 18: Seq_p9_AAAAGTTAT2
+----- Deca
+(AAAAAATATC)2 20: Seq_p10_AAAAAATATC2

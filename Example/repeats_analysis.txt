@@ -1,0 +1,80 @@
+Program: statistics_misa.py 1.0
+Statistic file analysed: sequences.fasta.statistics
+Definement of microsatellites (MISA): (1/10) (2/6) (3/5) (4/5) (5/5) (6/5) (7/3) (8/2) (9/2) (10/2)
+Misa file analysed: sequences.fasta.misa
+Date: 2015-09-18 00:31 Execution time: 0.00 sec
+Note: Numbers label with '(MISA)' are not calculated but read from input
+Option repeatclasses: True
+==================================================
+
+Total length of Sequence examined (bp) (MISA): 1352
+Total number of SSR (MISA) :       21
+Total length of SSR (bp)   :       79
+Relative abundance (SSR/Mb):    15532.54
+Relative density (bp/Mb)   :    58431.95
+
+====== Distribution of motif length  =========
+Motif     %   Number  Length[bp]
+----------------------------------------
+Mono : 23.8% (     5)          5
+Di   : 19.0% (     4)          8
+Tri  : 14.3% (     3)          9
+Tetra: 14.3% (     3)         12
+Penta:  4.8% (     1)          5
+Hexa :  4.8% (     1)          6
+Septa:  4.8% (     1)          7
+Octa :  4.8% (     1)          8
+Nona :  4.8% (     1)          9
+Deca :  4.8% (     1)         10
+----------------------------------------
+Total             21          79
+
+-------- Number of SSRs by repeat class (experimental) ------
+Perfect SSRs: (p)                :       21
+Imperfect SSRs (c)               :        0
+Compound SSRs (c*)               :        0
+                        Subtotal :       21
+SSRs in compound formation (MISA):        0
+                           Total :       21
+
+======== Longest motives =======
+Mono  A: 16, T: 11, C: 11, G: 11
+Di        8: CG
+Tri       7: AGC
+Tetra     8: ACTC
+Penta     5: AACAC
+Hexa      5: ACCATC
+Septa     3: AATATAT
+Octa      2: AATCAATT
+Nona      2: AAAAGTTAT
+Deca      2: AAAAAATATC
+
+======= Total abundance of repeat types =======
+---------  Mono-nucleotides
+A/T:  60.0% (    3)
+C/G:  40.0% (    2)
+---------  Di-nucleotides
+AC/GT:  25.0% (    1)
+AG/CT:  25.0% (    1)
+AT/AT:  25.0% (    1)
+CG/CG:  25.0% (    1)
+---------  Tri-nucleotides
+ACG/CGT:  33.3% (    1)
+ACT/AGT:  33.3% (    1)
+AGC/CTG:  33.3% (    1)
+---------  Tetra-nucleotides
+AAAG/CTTT:  33.3% (    1)
+ACTC/AGTG:  33.3% (    1)
+AGAT/ATCT:  33.3% (    1)
+---------  Penta-nucleotides
+AACAC/GTGTT: 100.0% (    1)
+---------  Hexa-nucleotides
+ACCATC/ATGGTG: 100.0% (    1)
+---------  Septa-nucleotides
+AATATAT/ATATATT: 100.0% (    1)
+---------  Octa-nucleotides
+AATCAATT/AATTGATT: 100.0% (    1)
+---------  Nona-nucleotides
+AAAAGTTAT/AACTTTTAT: 100.0% (    1)
+---------  Deca-nucleotides
+AAAAAATATC/ATATTTTTTG: 100.0% (    1)

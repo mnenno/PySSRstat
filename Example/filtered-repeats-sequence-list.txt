@@ -1,0 +1,8 @@
+Program: filterrepeatsmisa.py 1.0
+Date: 2015-09-18 00:31 Execution time: 0.00 sec
+Input file of sequences: sequences.fasta.misa
+Repeat length min: 30, max: 200, sort sequence by: repeat length
+Output: filtered-repeats-sequence-list.txt Execution time: 0.00 sec
+======================================================================
+Seq_p6_ACCATC5	1	p6	(ACCATC)5	30	211	240
+Seq_p4_ACTC8	1	p4	(ACTC)8	32	211	242

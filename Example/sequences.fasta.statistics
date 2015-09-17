@@ -1,0 +1,85 @@
+Specifications
+==============
+
+Sequence source file: "sequences.fasta"
+
+Definement of microsatellites (unit size / minimum number of repeats):
+(1/10) (2/6) (3/5) (4/5) (5/5) (6/5) (7/3) (8/2) (9/2) (10/2) 
+
+Maximal number of bases interrupting 2 SSRs in a compound microsatellite:  100
+
+
+
+RESULTS OF MICROSATELLITE SEARCH
+================================
+
+Total number of sequences examined:              21
+Total size of examined sequences (bp):           1352
+Total number of identified SSRs:                 21
+Number of SSR containing sequences:              21
+Number of sequences containing more than 1 SSR:  0
+Number of SSRs present in compound formation:    0
+
+
+Distribution to different repeat type classes
+---------------------------------------------
+
+Unit size	Number of SSRs
+1	5
+2	4
+3	3
+4	3
+5	1
+6	1
+7	1
+8	1
+9	1
+10	1
+
+Frequency of identified SSR motifs
+----------------------------------
+
+Repeats	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	total
+A	-	-	-	-	-	-	-	-	1						1	2
+C	-	-	-	-	-	-	-	-		1						1
+G	-	-	-	-	-	-	-	-		1						1
+T	-	-	-	-	-	-	-	-		1						1
+AC	-	-	-	-		1										1
+AT	-	-	-	-		1										1
+CG	-	-	-	-			1									1
+GA	-	-	-	-		1										1
+ACT	-	-	-		1											1
+AGC	-	-	-			1										1
+CGA	-	-	-	1												1
+ACTC	-	-	-				1									1
+AGAT	-	-	-	1												1
+GAAA	-	-	-	1												1
+AACAC	-	-	-	1												1
+ACCATC	-	-	-	1												1
+AATATAT	-	1														1
+AATCAATT	1															1
+AAAAGTTAT	1															1
+AAAAAATATC	1															1
+
+Frequency of classified repeat types (considering sequence complementary)
+-------------------------------------------------------------------------
+
+Repeats	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	total
+A/T	-	-	-	-	-	-	-	-	1	1					1	3
+C/G	-	-	-	-	-	-	-	-		2						2
+AC/GT	-	-	-	-		1										1
+AG/CT	-	-	-	-		1										1
+AT/AT	-	-	-	-		1										1
+CG/CG	-	-	-	-			1									1
+ACG/CGT	-	-	-	1												1
+ACT/AGT	-	-	-		1											1
+AGC/CTG	-	-	-			1										1
+AAAG/CTTT	-	-	-	1												1
+ACTC/AGTG	-	-	-				1									1
+AGAT/ATCT	-	-	-	1												1
+AACAC/GTGTT	-	-	-	1												1
+ACCATC/ATGGTG	-	-	-	1												1
+AATATAT/ATATATT	-	1														1
+AATCAATT/AATTGATT	1															1
+AAAAGTTAT/AACTTTTAT	1															1
+AAAAAATATC/ATATTTTTTG	1															1
