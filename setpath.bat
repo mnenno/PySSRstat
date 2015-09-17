@@ -1,0 +1,2 @@
+REM -- Add path to PYSSRSTAT
+SET PATH=C:\PySSRstat;%PATH%

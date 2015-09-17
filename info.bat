@@ -1,0 +1,1 @@
+python %~dp0statistics_misa.py
