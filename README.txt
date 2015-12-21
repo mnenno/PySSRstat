@@ -13,6 +13,8 @@ for further analysis about the distribution or repeats, to find the longest
 repeats and to filter the MISA-file by repeat length (minimum and maximum)
 and optional by border for primer selection.
 
+PySSRstat was written for and used in Galasso and Ponzoni (2015)[2].
+
 The programs of the PySSRstat are written by Mario Nenno in the
 Python 3.4 language and tested on a PC with Core i5-4570, 8 GB RAM and
 MS Windows 8.1.
@@ -152,3 +154,9 @@ databases for the development and characterization of gene-derived SSR-markers
 in barley (Hordeum vulgare L.). Theoretical and Applied Genetics 106: 411-422.
 Link: http://pgrc.ipk-gatersleben.de/misa/.
 
+
+[2] Galasso, I. and Ponzoni, E. (2015) In Silico Exploration of Cannabis sativa L.
+Genome for Simple Sequence Repeats (SSRs). American Journal of Plant Sciences, 6,
+3244-3250. doi: 10.4236/ajps.2015.619315
+Link: http://www.scirp.org/Journal/PaperInformation.aspx?PaperID=62020
+Fulltext: http://dx.doi.org/10.4236/ajps.2015.619315
