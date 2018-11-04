@@ -89,7 +89,10 @@ def create_load_index(seq):
                 i += 1
                 if line.startswith(">"):
                     line = line.rstrip()
-                    file.write(line[1:]+"\t"+str(i)+"\n")
+                    # for compatibility change seq id like misa
+                    # replace space with underscore
+                    seq_id = line[1:].replace(' ', '_')
+                    file.write(seq_id + "\t" + str(i) + "\n")
             # add end of last sequence
             file.write("end"+"\t"+str(i+1)+"\n")
     # load index
