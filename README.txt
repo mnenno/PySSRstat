@@ -64,8 +64,7 @@ filterrepeatsmisa.py  Filter the MISA file by minimum and maximum repeat
                         - <maximum>
 
                       Output: filtered-repeats-sequence-list.txt
-		     
-		     
+		     		     
 getsequences.py       Extract the previously filtered accessions from database
                       file. Optionally filter for a border of n bp up- and
                       downstream of microsatellite
