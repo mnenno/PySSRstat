@@ -76,6 +76,7 @@ getsequences.py       Extract the previously filtered accessions from database
                         [-b nnn] (optional)
                     
                       Output:
+                        - index.txt
                         - getsequences-info.txt
                         - repeats-sequences.fas
                           repeats-sequences-border.fas (if with border option)
